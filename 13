@@ -1,0 +1,6 @@
+s = 0
+for n in range(1, 1000):
+    s += n
+    if s > 1000:
+        print(n)
+        break
